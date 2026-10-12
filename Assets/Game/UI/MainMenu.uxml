@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Menu.uss" />
+    <ui:VisualElement class="screen">
+        <ui:Label text="101" class="title" />
+        <ui:VisualElement class="menu">
+            <ui:Button name="singleplayer" text="#menu.singleplayer" class="menu-button" />
+            <ui:Button name="multiplayer" class="menu-button">
+                <ui:Label text="#menu.multiplayer" />
+                <ui:Label text="#menu.comingsoon" class="badge" />
+            </ui:Button>
+            <ui:Button name="language" text="#menu.language" class="menu-button" />
+            <ui:Button name="quit" text="#menu.quit" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

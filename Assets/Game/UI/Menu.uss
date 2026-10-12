@@ -1,0 +1,60 @@
+.screen {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 61, 46);
+}
+
+.title {
+    font-size: 220px;
+    -unity-font-style: bold;
+    color: rgb(244, 236, 216);
+    margin-bottom: 24px;
+}
+
+.message {
+    font-size: 44px;
+    color: rgb(244, 236, 216);
+    margin-bottom: 60px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+.menu {
+    width: 620px;
+}
+
+.menu-button {
+    height: 116px;
+    margin: 9px 0;
+    font-size: 48px;
+    -unity-font-style: bold;
+    color: rgb(40, 28, 16);
+    background-color: rgb(244, 236, 216);
+    border-width: 0;
+    border-radius: 18px;
+}
+
+.menu-button:hover {
+    background-color: rgb(255, 250, 235);
+}
+
+.menu-button:active {
+    background-color: rgb(214, 202, 176);
+}
+
+.menu-button:focus {
+    border-width: 5px;
+    border-color: rgb(232, 168, 56);
+}
+
+.menu-button:disabled {
+    opacity: 0.45;
+}
+
+.badge {
+    font-size: 24px;
+    -unity-font-style: normal;
+    color: rgb(40, 28, 16);
+    margin-top: -6px;
+}

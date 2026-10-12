@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Table.uss" />
+    <ui:VisualElement class="hud" picking-mode="Ignore">
+        <ui:VisualElement class="top" picking-mode="Ignore">
+            <ui:VisualElement class="info" picking-mode="Ignore">
+                <ui:Label name="status" class="status" picking-mode="Ignore" />
+                <ui:Label name="opening" class="detail" picking-mode="Ignore" />
+                <ui:Label name="scores" class="detail" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:Button name="menu" text="#hud.menu" class="hud-button" />
+        </ui:VisualElement>
+        <ui:VisualElement class="actions" picking-mode="Ignore">
+            <ui:Button name="meld" text="#hud.group" class="hud-button" />
+            <ui:Button name="open" text="#hud.open" class="hud-button" />
+            <ui:Button name="unstage" text="#hud.unstage" class="hud-button" />
+            <ui:Button name="discard" text="#hud.discard" class="hud-button" />
+            <ui:Button name="return" text="#hud.return" class="hud-button" />
+            <ui:Button name="sort-runs" text="#hud.sortcolor" class="hud-button" />
+            <ui:Button name="sort-sets" text="#hud.sortnumber" class="hud-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="results" class="results">
+            <ui:Label name="results-text" class="results-text" />
+            <ui:VisualElement class="results-buttons">
+                <ui:Button name="next" text="#hud.next" class="hud-button" />
+                <ui:Button name="results-menu" text="#hud.menu" class="hud-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

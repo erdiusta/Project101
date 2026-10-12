@@ -1,0 +1,17 @@
+{
+    "name": "Project101.App",
+    "rootNamespace": "Project101.App",
+    "references": [
+        "Project101.Core",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

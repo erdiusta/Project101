@@ -1,0 +1,87 @@
+.hud {
+    flex-grow: 1;
+}
+
+.top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 24px;
+}
+
+.info {
+    flex-shrink: 1;
+}
+
+.status {
+    font-size: 34px;
+    -unity-font-style: bold;
+    color: rgb(244, 236, 216);
+    white-space: normal;
+}
+
+.detail {
+    font-size: 26px;
+    color: rgb(214, 206, 186);
+    white-space: normal;
+}
+
+.actions {
+    position: absolute;
+    right: 24px;
+    top: 150px;
+    width: 250px;
+}
+
+.hud-button {
+    height: 64px;
+    margin: 6px 0;
+    padding: 0 22px;
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: rgb(40, 28, 16);
+    background-color: rgb(244, 236, 216);
+    border-width: 0;
+    border-radius: 12px;
+}
+
+.hud-button:hover {
+    background-color: rgb(255, 250, 235);
+}
+
+.hud-button:active {
+    background-color: rgb(214, 202, 176);
+}
+
+.hud-button:disabled {
+    opacity: 0.4;
+}
+
+.results {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 760px;
+    padding: 40px;
+    background-color: rgba(18, 26, 22, 0.94);
+    border-radius: 20px;
+    display: none;
+}
+
+.results-text {
+    font-size: 36px;
+    color: rgb(244, 236, 216);
+    white-space: normal;
+    margin-bottom: 24px;
+}
+
+.results-buttons {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.results-buttons .hud-button {
+    width: 260px;
+    margin: 0 12px;
+}
